@@ -1,0 +1,35 @@
+{
+    "expo": {
+        "name": "react-native-elements",
+        "version": "2.0.3",
+        "description": "Sketch Elements for React Native: https://react-native.shop/elements",
+        "sdkVersion": "31.0.0",
+        "orientation": "portrait",
+        "privacy": "public",
+        "icon": "./app.png",
+        "primaryColor": "#00AAFF",
+        "splash": {
+            "image": "./splash.png",
+            "resizeMode": "cover",
+            "backgroundColor": "#ffffff"
+        },
+        "packagerOpts": {
+            "assetExts": ["otf", "ttf"]
+        },
+        "androidStatusBar": {
+            "backgroundColor": "#ffffff",
+            "barStyle": "dark-content"
+        },
+        "ios": {
+            "bundleIdentifier": "com.wcandillon.reactnativeelements"
+        },
+        "android": {
+            "package": "com.wcandillon.reactnativeelements"
+        },
+        "assetBundlePatterns": [
+            "**/*.ttf",
+            "**/*.otf",
+            "**/*.png"
+        ]
+    }
+}
